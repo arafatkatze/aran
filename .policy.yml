@@ -1,0 +1,9 @@
+policy:
+  approval:
+    - one approval from palantir
+
+approval_rules:
+  - name: one approval from palantir
+    requires:
+      count: 1
+      organizations: ["palantir"]
